@@ -1,3 +1,4 @@
+//this module converts unix time to a natural language time
 var months = require('./months'); 
 
 module.exports = function unixToNatural(unix){

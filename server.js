@@ -1,3 +1,5 @@
+//this is the service that will receive the URL request and process it using the modules in my package
+
 var months = require('./months');
 var processUrl = require('./processURL')
 var unixToNatural = require('./unixToNatural'); 
@@ -12,6 +14,7 @@ app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 
+//once the request is made, the :value will be sent to the processURL module
 app.get("/:value", function (request, response) {
   response.send(processUrl(request.params.value));
 });
