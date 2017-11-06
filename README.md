@@ -1,4 +1,4 @@
-#Timestamp Microservice - Requirements from Free Code Camp
+<bold>Timestamp Microservice - Requirements from Free Code Camp</bold>
 
 <strong>Objective:</strong> Build a full stack JavaScript app that is functionally similar to this: https://timestamp-ms.herokuapp.com/ and deploy it to Glitch.
 
